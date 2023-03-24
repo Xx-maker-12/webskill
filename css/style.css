@@ -1,0 +1,42 @@
+.verdeclaro {
+    background-color: #e5fae9;
+}
+
+.gris {
+    background-color: #6c757e;
+}
+
+.letragris {
+    color: #232428;
+}
+.card-anfibios{
+    background-color: #27a844;
+    border: none;
+}
+.card-reptiles{
+    background-color: #27a844;
+    border: none;
+}
+
+
+.col-5{
+    display: flex;
+    border: none;
+}
+
+
+a{
+    text-decoration: none;
+
+}
+
+.subir {
+    background-color: #27a844;
+}
+.enlaces-grises{
+    color: #544b45;
+}
+
+.griscontacto {
+        background-color: #f5f9fc;
+}
