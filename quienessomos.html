@@ -34,7 +34,7 @@
             <div class="collapse navbar-collapse" id="collapsibleNavId">
                 <ul class="navbar-nav me-auto mt-2 mt-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#" aria-current="page">Inicio <span
+                        <a class="nav-link active" href="index.html" aria-current="page">Inicio <span
                                 class="visually-hidden">(current)</span></a>
                     </li>
                     <li class="nav-item dropdown">
@@ -49,7 +49,7 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#iniciar">Registrarse</a>
+                        <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#registro">Registrarse</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#iniciar">Inicia sesion</a>
@@ -61,101 +61,91 @@
     </nav>
 
     <div class="container">
-        <div id="carouselId" class="carousel slide mt-5" data-bs-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true"
-                    aria-label="First slide">
-                </li>
-                <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
-                <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Third slide"></li>
-                <li data-bs-target="#carouselId" data-bs-slide-to="3" aria-label="Fourth slide"></li>
-                <li data-bs-target="#carouselId" data-bs-slide-to="4" aria-label="Fifth slide"></li>
-            </ol>
-            <div class="carousel-inner" role="listbox">
-                <div class="carousel-item active">
-                    <img src="carrusel/anfibios1.png" class="w-100 d-block" alt="First slide">
-                </div>
-                <div class="carousel-item">
-                    <img src="carrusel/aves1.png" class="w-100 d-block" alt="Second slide">
-                </div>
-                <div class="carousel-item">
-                    <img src="carrusel/mamiferos1.png" class="w-100 d-block" alt="Third slide">
-                </div>
-                <div class="carousel-item">
-                    <img src="carrusel/peces1.png" class="w-100 d-block" alt="Fourth slide">
-                </div>
-                <div class="carousel-item">
-                    <img src="carrusel/reptiles1.png" class="w-100 d-block" alt="Fifth slide">
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-    </div>
+        <h1 class="text-center mt-3 mb-3">
+            Quiénes somos
+        </h1>
+        <strong>catalogodeanimales.es</strong> es un medio digital independiente y liberal. Somos una redacción gue
+        trabaja para publicar información de animales. con rigor y
+        libertad. Nuestro compromiso es con la verdad, sin fanatismos. Nuestro ideario tiene tres líneas rojas
+        innegociables: ser libres, ser fiables y ser honestos.
+        <p></p>
 
-    <h1 class="text-center">
-        Quiénes somos
-    </h1>
-    <div class="container">
-        <p>
-            <strong>catalogodeanimales.es</strong> es un medio digital independiente y liberal. Somos una redacción gue
-            trabaja para publicar información de animales. con rigor y
-            libertad. Nuestro compromiso es con la verdad, sin fanatismos. Nuestro ideario tiene tres líneas rojas
-            innegociables: ser libres, ser fiables y ser honestos.
-        </p>
-        <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle text-primary" type="button" id="dropdownMenuButton"
-                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                ¿Qué queremos hacer?
-            </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                El proyecto nació con el objetivo de ayudar estudiantes y a tocias aquellas personas que conviven con
-                animales y darles los necesarios para
-                mejorar la convivencia entre ellos. Poco después, y viendo la necesidad de dar respuesta a dudas más
-                complejas, se añadieron veterinarios,
-                adiestradores, para ofrecer un contenido más especifico y riguroso. Actualmente somos más de 20
-                profesionales expertos en el mundo
-                animal.
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="heading1">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1"
+                        aria-expanded="true" aria-controls="collapse1">
+                        ¿Qué queremos hacer?
+                    </button>
+                </h2>
+                <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="heading1">
+                    <div class="accordion-body">
+                        El proyecto nació con el objetivo de ayudar estudiantes y a tocias aquellas personas que
+                        conviven con
+                        animales y darles los necesarios para
+                        mejorar la convivencia entre ellos. Poco después, y viendo la necesidad de dar respuesta a dudas
+                        más
+                        complejas, se añadieron veterinarios,
+                        adiestradores, para ofrecer un contenido más especifico y riguroso. Actualmente somos más de 20
+                        profesionales expertos en el mundo
+                        animal.
+                    </div>
+                </div>
             </div>
-            <button class="btn btn-secondary dropdown-toggle text-primary" type="button" id="dropdownMenuButton"
-                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Nuestro propósito
-            </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                En <strong>catalogodeanimales.es</strong> trabajamos tres objetivos claros; educar, informar y
-                concienciar, Nos esforzamos cada día para publicar contenido útil y
-                de calidad, que nos permita ayudar a todos nuestras lectores a convertirse en auténticos expertos
-                animales e informar para mejorar la situaciÓn actual
-                del mundo animal. combatiendo el abandono. el maltrato y la explotación.
+        </div>
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="heading2">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2"
+                        aria-expanded="true" aria-controls="collapse2">
+                        Nuestro propósito
+                    </button>
+                </h2>
+                <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2">
+                    <div class="accordion-body">
+                        En <strong>catalogodeanimales.es</strong> trabajamos tres objetivos claros; educar, informar y
+                        concienciar, Nos esforzamos cada día para publicar contenido útil y
+                        de calidad, que nos permita ayudar a todos nuestras lectores a convertirse en auténticos
+                        expertos
+                        animales e informar para mejorar la situaciÓn actual
+                        del mundo animal. combatiendo el abandono. el maltrato y la explotación.
+                    </div>
+                </div>
             </div>
-            <button class="btn btn-secondary dropdown-toggle text-primary" type="button" id="dropdownMenuButton"
-                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                ¿Qué hacemos en nuestra web?
-            </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                Para lograr los objetivos propuestos, compartimos contenido a diario elaborado por expertos y
-                profesionales del sector. A través de nuestros artículos, ayudamos a entender mejor el comportamiento de
-                los animales de compañía y cualquier otro animal, para establecer rutinas positivas para todos,
-                resolvemos dudas, mostramos la realidad de las especies en peligro de extinción y mucho más.
-                Todo el contenido se actualiza constantemente y se aborda desde una perspectiva animalista, respetando
-                en todo momento las necesidades naturales de cada especie. Además, colaboramos activamente con
-                asociaciones, protectoras, fundaciones, clínicas veterinarias, etc., para fomentar la adopción
-                responsable de animales, luchar contra el abandono y resaltar la importancia de acudir a profesionales
-                siempre que sea necesario. En este sentido, nuestros artículos son una guía que no sustituyen la
-                atención veterinaria o el trabajo realizado por un educador o adiestrador canino.
-                Con todo ello, en <strong>catalogodeanimales.es</strong> aspiramos a convertirnos en la página web de
-                referencia del mundo animal de habla hispana para llegar a un número mayor de personas y, entre todos,
-                mejorar la calidad de vida de los animales.
+        </div>
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="heading3">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3"
+                        aria-expanded="true" aria-controls="collapse3">
+                        ¿Qué hacemos en nuestra web?
+                    </button>
+                </h2>
+                <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3">
+                    <div class="accordion-body">
+                        Para lograr los objetivos propuestos, compartimos contenido a diario elaborado por expertos y
+                        profesionales del sector. A través de nuestros artículos, ayudamos a entender mejor el
+                        comportamiento de
+                        los animales de compañía y cualquier otro animal, para establecer rutinas positivas para todos,
+                        resolvemos dudas, mostramos la realidad de las especies en peligro de extinción y mucho más.
+                        Todo el contenido se actualiza constantemente y se aborda desde una perspectiva animalista,
+                        respetando
+                        en todo momento las necesidades naturales de cada especie. Además, colaboramos activamente con
+                        asociaciones, protectoras, fundaciones, clínicas veterinarias, etc., para fomentar la adopción
+                        responsable de animales, luchar contra el abandono y resaltar la importancia de acudir a
+                        profesionales
+                        siempre que sea necesario. En este sentido, nuestros artículos son una guía que no sustituyen la
+                        atención veterinaria o el trabajo realizado por un educador o adiestrador canino.
+                        Con todo ello, en <strong>catalogodeanimales.es</strong> aspiramos a convertirnos en la página
+                        web de
+                        referencia del mundo animal de habla hispana para llegar a un número mayor de personas y, entre
+                        todos,
+                        mejorar la calidad de vida de los animales.
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-
 
 
 
@@ -214,8 +204,7 @@
                     <nav class="text-white text-center">
                         <ul class="list-unstyled">
                             <li>
-                                <a class="nav-link text-white" href="#" data-bs-toggle="modal"
-                                    data-bs-target="#quienes">Quiénes somos</a>
+                                <a class="nav-link text-white" href="quienessomos.html">Quiénes somos</a>
                             </li>
                             <li>
                                 <a class="nav-link text-white" href="#" data-bs-toggle="modal"
@@ -231,18 +220,17 @@
                     <nav>
                         <ul class="nav">
                             <li class="nav-item">
-                                <a class="nav-link text-white" href="#"><button onclick="topFunction()"
+                                <a class="nav-link text-white" href="index.html"><button
                                         class="subir text-white  border-0" title="Go to top">HOME</button></a>
                             </li>
                         </ul>
                     </nav>
                 </div>
             </div>
-            <p class="text-center">
+            <div class="text-center">
                 Catálogo de animales &#169; S1DAM - S1DAW
-            </p>
+            </div>
         </div>
-
 
 
 
@@ -251,13 +239,12 @@
 
         <!-- Modal Body -->
         <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
-        <div class="modal fade" id="privacidad" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false"
-            role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
+        <div class="modal fade" id="privacidad" tabindex="-1" data-bs-keyboard="false" role="dialog"
+            aria-labelledby="modalTitleId" aria-hidden="true">
             <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-lg" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title" id="privacidad">Privacidad</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
                         <h1 class="text-center">
@@ -277,7 +264,8 @@
                         En la web catalogodeanimales.es hay una serie de contenidos de carácter informativo sobre
                         animales,
                         especies, y características. <strong>Su principal objetivo</strong> es facilitar a los clientes
-                        y al público
+                        y al
+                        público
                         en general, la
                         información relativa a la empresa, a los productos y servicios que se ofrecen.
                         <h2>
@@ -301,24 +289,149 @@
                         de la
                         empresa C/Ronda S/N de Talavera de la Reina, escribirnos al siguiente correo
                         contacto@catalogodeanimales.es o llámanos al 777888999.
-                    </div>
-                    <div class="modal-footer">
+                        <h2>
+                            3. Condiciones de uso
+                        </h2>
+                        <strong>Las condiciones de acceso y uso del presente sitio web se rigen por la legalidad vigente
+                            y por
+                            el
+                            principio de buena fe </strong>
+                        comprometiéndose el usuario a realizar un buen uso de la web. No se permiten conductas que vayan
+                        contra
+                        la
+                        ley, los derechos o intereses de terceros.
+                        Ser usuario de la web de catalogodeanimales.es implica que reconoce haber leído y aceptado las
+                        presentes
+                        condiciones y lo que las extienda la normativa legal aplicable en esta materia. Si por el motivo
+                        que
+                        fuere
+                        no está de acuerdo con estas condiciones no continúe usando esta web.
+                        Cualquier tipo de notificación y/o reclamación solamente será válida por notificación escrita
+                        y/o correo
+                        certificado.
+                        <h2>
+                            4. Responsabilidades
+                        </h2>
+                        <strong>catalogodeanimales.es, no se hace responsable de la información y contenidos almacenados
+                            en
+                            foros,
+                            redes sociales o cualesquier otro medio que</strong>
+                        que permita a terceros publicar contenidos de forma independiente en la página web del
+                        prestador.
 
+                        Sin embargo, teniendo en cuenta los art. 11 y 16 de la LSSI-CE, catalogodeanimales.es se
+                        compromete a la
+                        retirada o en su caso bloqueo de aquellos contenidos que pudieran afectar o contravenir la
+                        legislación
+                        nacional o internacional, derechos de terceros o la moral y el orden público.
+                        <strong>Tampoco la empresa se responsabilizará de los daños y perjuicios que se produzcan por
+                            fallos o
+                            malas configuraciones del software instalado en el ordenador del internauta.
+                        </strong>Se excluye toda responsabilidad por alguna incidencia técnica o fallo que se produzca
+                        cuando el
+                        usuario se conecte a internet. Igualmente no se garantiza la inexistencia de interrupciones o
+                        errores en
+                        el acceso al sitio web.
+
+                        Así mismo,  <strong>catalogodeanimales.es se reserva el derecho a actualizar, modificar o
+                            eliminar la
+                            información contenida en su página web</strong>
+                         así como la configuración o presentación del mismo, en cualquier momento sin asumir alguna
+                        responsabilidad por ello.
+
+                        Le comunicamos que cualquier precio que pueda ver en nuestra web será solamente orientativo. Si
+                        el
+                        usuario desea saber con exactitud el precio o si el producto en el momento actual cuenta con
+                        alguna
+                        oferta de la cual se puede beneficiar ha de acudir a alguna de las tiendas físicas con las que
+                        cuenta
+                        catalogodeanimales.es.
+                        <h2>
+                            5. Propiedad intelectual e industrial.
+                        </h2>
+                        <strong>catalogodeanimales.es es titular de todos los derechos sobre el software de la
+                            publicación digital
+                            así como de los derechos de propiedad industrial e intelectual referidos a los contenidos
+                            que se
+                            incluyan</strong>
+                         a excepción de los derechos sobre productos y servicios de carácter público que no son
+                        propiedad de esta
+                        empresa.
+                        <strong>Ningún material publicado en esta web podrá ser reproducido, copiado o
+                            publicado</strong> sin el
+                        consentimiento por escrito de catalogodeanimales.es.
+
+                        Toda la información que se reciba en la web, como comentarios, sugerencias o ideas, se
+                        considerará cedida
+                        a catalogodeanimales.es de manera gratuita. No debe enviarse información que NO pueda ser
+                        tratada de este
+                        modo.
+
+                        Todos los productos y servicios de estas páginas que NO son propiedad de catalogodeanimales.es
+                        son marcas
+                        registradas de sus respectivos propietarios y son reconocidas como tales por nuestra empresa.
+                        Solamente
+                        aparecen en la web de catalogodeanimales.es a efectos de promoción y de recopilación de
+                        información. Estos
+                        propietarios pueden solicitar la modificación o eliminación de la información que les pertenece.
+                        <h2>
+                            6. Política de cookies.
+                        </h2>
+                        <strong>catalogodeanimales.es por su propia cuenta o la de un tercero contratado para prestación
+                            de
+                            servicios de medición, pueden utilizar cookies cuando el usuario navega por el sitio web.
+                            Las cookies
+                            son ficheros enviados al navegador por medio de un servicio web con la finalidad de
+                            registrar las
+                            actividades del usuario durante su tiempo de navegación.</strong>
+                        Las cookies utilizadas se asocian únicamente con un usuario anónimo y su ordenador, y no
+                        proporcionan por
+                        sí mismas los datos personales del usuario.
+                        <strong>Mediante el uso de las cookies resulta posible que el servidor donde se encuentra la web
+                            reconozca
+                            el navegador web utilizado por el usuario con la finalidad de que la navegación sea más
+                            sencilla.</strong>Se utilizan también para medir la audiencia y parámetros del tráfico,
+                        controlar el
+                        proceso y número de entradas.
+
+                        El usuario tiene la posibilidad de configurar su navegador para ser avisado de la recepción de
+                        cookies y
+                        para impedir su instalación en su equipo. Por favor consulte las instrucciones y manuales de su
+                        navegador
+                        para ampliar esta información.
+
+                        Para utilizar el sitio web no es necesario que el usuario permita la instalación de las cookies
+                        enviadas
+                        al sitio web, o el tercero que actúe en su nombre, sin perjuicio de que sea necesario que el
+                        usuario
+                        inicie una sesión tal en cada uno de los servicios cuya prestación requiera el previo registro.
+
+                        En todo caso  <strong>las cookies tienen un carácter temporal</strong>con la única finalidad de
+                        hacer más
+                        eficaz su transmisión ulterior. En ningún caso se utilizará cookies para recoger información de
+                        carácter
+                        personal.
+                        <p>
+                            <button type="button" class="btn subir text-white mt-3"
+                                data-bs-dismiss="modal">Aceptar</button>
+                        <div class="modal-footer">
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
 
 
+
         <!-- Modal Body -->
         <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
-        <div class="modal fade" id="contacto" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false"
-            role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
+        <div class="modal fade" id="contacto" tabindex="-1" data-bs-keyboard="false" role="dialog"
+            aria-labelledby="modalTitleId" aria-hidden="true">
             <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-lg" role="document">
                 <div class="modal-content griscontacto">
                     <div>
                         <h1 class="text-center">Escribe un comentario para contactar</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
                         <div class="row">
@@ -340,13 +453,12 @@
 
         <!-- Modal Body -->
         <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
-        <div class="modal fade" id="contacto" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false"
-            role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
+        <div class="modal fade" id="contacto" tabindex="-1" data-bs-keyboard="false" role="dialog"
+            aria-labelledby="modalTitleId" aria-hidden="true">
             <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-lg" role="document">
                 <div class="modal-content griscontacto">
                     <div>
                         <h1 class="text-center">Escribe un comentario para contactar</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
                         <div class="row">
@@ -372,13 +484,12 @@
 
         <!-- Modal Body -->
         <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
-        <div class="modal fade" id="iniciar" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false"
-            role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
+        <div class="modal fade" id="iniciar" tabindex="-1" data-bs-keyboard="false" role="dialog"
+            aria-labelledby="modalTitleId" aria-hidden="true">
             <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-lg" role="document">
                 <div class="modal-content">
                     <div>
                         <h1 class="text-center">INICIA SESION</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
                         <div class="row">
@@ -395,91 +506,14 @@
     </div>
 
 
-
     <!-- Modal Body -->
     <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
-    <div class="modal fade" id="quienes" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false" role="dialog"
-        aria-labelledby="modalTitleId" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-lg" role="document">
-            <div class="modal-content">
-                <div>
-                    <h1 class="text-center">Quiénes somos</h1>
-                    <p>
-                        <strong>catalogodeanimales.es</strong> es un medio digital independiente y liberal. Somos una
-                        redacción gue trabaja para publicar información de animales. con rigor y
-                        libertad. Nuestro compromiso es con la verdad, sin fanatismos. Nuestro ideario tiene tres líneas
-                        rojas innegociables: ser libres, ser fiables y ser honestos.
-                    </p>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <div class="row">
-                        <div class="dropdown">
-                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                ¿Qué queremos hacer?
-                            </button>
-                            <h2>
-
-                            </h2>
-                        </div>
-
-                        <p>
-                            El proyecto nació con el objetivo de ayudar estudiantes y a tocias aquellas personas que
-                            conviven con animales y darles los necesarios para
-                            mejorar la convivencia entre ellos. Poco después, y viendo la necesidad de dar respuesta a
-                            dudas más complejas, se añadieron veterinarios,
-                            adiestradores, para ofrecer un contenido más especifico y riguroso. Actualmente somos más de
-                            20 profesionales expertos en el mundo
-                            animal.
-                        </p>
-                        <h2>
-                            Nuestro propósito
-                        </h2>
-                        <p>
-                            En <strong>catalogodeanimales.es</strong> trabajamos tres objetivos claros; educar, informar
-                            y concienciar, Nos esforzamos cada día para publicar contenido útil y
-                            de calidad, que nos permita ayudar a todos nuestras lectores a convertirse en auténticos
-                            expertos animales e informar para mejorar la situaciÓn actual
-                            del mundo animal. combatiendo el abandono. el maltrato y la explotación.
-                        </p>
-                        <h2>
-                            ¿Qué hacemos en nuestra web?
-                        </h2>
-                        <p>
-                            Para lograr los objetivos propuestos, compartimos contenido a diario elaborado por expertos
-                            y profesionales del sector. A través de nuestros artículos, ayudamos a entender mejor el
-                            comportamiento de los animales de compañía y cualquier otro animal, para establecer rutinas
-                            positivas para todos, resolvemos dudas, mostramos la realidad de las especies en peligro de
-                            extinción y mucho más.
-                            Todo el contenido se actualiza constantemente y se aborda desde una perspectiva animalista,
-                            respetando en todo momento las necesidades naturales de cada especie. Además, colaboramos
-                            activamente con asociaciones, protectoras, fundaciones, clínicas veterinarias, etc., para
-                            fomentar la adopción responsable de animales, luchar contra el abandono y resaltar la
-                            importancia de acudir a profesionales siempre que sea necesario. En este sentido, nuestros
-                            artículos son una guía que no sustituyen la atención veterinaria o el trabajo realizado por
-                            un educador o adiestrador canino.
-                            Con todo ello, en <strong>catalogodeanimales.es</strong>  aspiramos a convertirnos en la
-                            página web de referencia del mundo animal de habla hispana para llegar a un número mayor de
-                            personas y, entre todos, mejorar la calidad de vida de los animales.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
-
-
-    <!-- Modal Body -->
-    <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
-    <div class="modal fade" id="registro" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false" role="dialog"
+    <div class="modal fade" id="registro" tabindex="-1" data-bs-keyboard="false" role="dialog"
         aria-labelledby="modalTitleId" aria-hidden="true">
         <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-lg" role="document">
             <div class="modal-content griscontacto">
                 <div>
                     <h1 class="text-center">Registro de usuario</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     <div class="row">
@@ -510,6 +544,8 @@
     <script>
         const myModal = new bootstrap.Modal(document.getElementById('privacidad'), options)
     </script>
+
+
 
 
 
